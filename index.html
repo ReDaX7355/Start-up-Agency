@@ -38,7 +38,7 @@
 			<div class="header-menu">
 				<div class="header-menu__inner flex">
 					<div class="header__logo">
-						<img class="logo" src="img/Logo.png" alt="Logo">
+						<a href="#" class="logo__link"><img class="logo" src="img/Logo.png" alt="Logo"></a>
 					</div>
 					<nav class="header__menu">
 						<ul class="menu__list">
@@ -359,16 +359,17 @@
 		<div class="container">
 			<div class="footer__inner flex">
 				<div class="logo footer__logo logo-footer">
-					<img class="logo-footer__image" src="img/Logo invert.png" alt="Logo">
+					<a href="#" class="logo__link"><img class="logo-footer__image" src="img/Logo invert.png" alt="Logo"></a>
+					
 				</div>
 				<div class="footer__rights rights">
 					<p class="rights__text">© 2020. Start-App Agency. All rights reserved.</p>
 				</div>
 				<div class="footer__shared shared-links">
-					<img src="img/social/instagram.png" alt="instagram" class="shared-links__image">
-					<img src="img/social/facebook.png" alt="facebook" class="shared-links__image">
-					<img src="img/social/twitter.png" alt="twitter" class="shared-links__image">
-					<img src="img/social/linkedin.png" alt="linkedin" class="shared-links__image">
+					<a href="#" class="shared__link"><img src="img/social/instagram.png" alt="instagram" class="shared-links__image"></a>
+					<a href="#" class="shared__link"><img src="img/social/facebook.png" alt="facebook" class="shared-links__image"></a>
+					<a href="#" class="shared__link"><img src="img/social/twitter.png" alt="twitter" class="shared-links__image"></a>
+					<a href="#" class="shared__link"><img src="img/social/linkedin.png" alt="linkedin" class="shared-links__image"></a>
 				</div>
 			</div>
 		</div>
@@ -377,7 +378,7 @@
 	<div class="header-menu--fixed">
 		<div class="header-menu__inner flex header-menu__inner--fixed">
 			<div class="header__logo">
-				<img class="logo" src="img/Logo.png" alt="Logo">
+				<a href="#" class="logo__link"><img class="logo" src="img/Logo.png" alt="Logo"></a>
 			</div>
 			<nav class="header__menu">
 				<ul class="menu__list">
@@ -395,34 +396,34 @@
 			<div class="modal__exit"></div>
 			<div class="modal__signup">
 				<div class="modal-signup__header">
-					<div data-tab="tab-2" class="modal-signup__tab modal-signup__tab--active">
+					<div data-tab="tab-1" class="modal-signup__tab modal-signup__tab--active">
 						<p class="tab__title">Sign In</p>
 					</div>
-					<div data-tab="tab-1" class="modal-signup__tab">
+					<div data-tab="tab-2" class="modal-signup__tab">
 						<p class="tab__title">Sign Up</p>
 					</div>
 				</div>
 				<div class="modal-signup__body">
-					<div id="tab-2" class="signup__block signup__block--active">
+					<div id="tab-1" class="signup__block signup__block--active">
 						<h3 class="signup-body__title">Sign In</h3>
 						<form action="#" class="signup__form">
 							<label for="input-login" class="label__login">Email</label>
-							<input id="input-login" type="email" class="form__login" placeholder="example@mail.com">
+							<input id="signin-input__login" type="email" class="form__login" placeholder="example@mail.com">
 							<label for="input-password" class="label__login">Password</label>
-							<input id="input-password" type="password" class="form__login">
+							<input id="signin-input__password" type="password" class="form__login">
 
 							<input type="submit" class="form__submit" value="Sign In">
 						</form>
 					</div>
-					<div id="tab-1" class="signup__block">
+					<div id="tab-2" class="signup__block">
 						<h3 class="signup-body__title">Sign Up</h3>
 						<form action="#" class="signup__form">
 							<label for="input-login" class="label__login">Email</label>
-							<input id="input-login" type="email" class="form__login" placeholder="example@mail.com">
+							<input id="signup-inpu__login" type="email" class="form__login" placeholder="example@mail.com">
 							<label for="input-name" class="label__login">Name</label>
 							<input id="input-name" type="text" class="form__login">
 							<label for="input-password" class="label__login">Password</label>
-							<input id="input-password" type="password" class="form__login">
+							<input id="signup-input__password" type="password" class="form__login">
 							<p class="form__policy">By clicking Sign Up, you agree to our Terms, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
 							<input type="submit" class="form__submit" value="Sign Up">
 						</form>
@@ -434,7 +435,6 @@
 
 	
 
-	<script src="js/scripts.min.js"></script>
 	<script src="js/common.min.js"></script>
 </body>
 </html>
