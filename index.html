@@ -71,7 +71,7 @@
 				<h3 class="header__description">We provide businesses with all financial services including financial analysis of the enterprise, inbound marketing & website development service.</h3>
 				<div class="header__buttons flex">
 					<div class="button header__button">Start your free trial</div>
-					<div class="button header__button header__button--green">Discover in video</div>
+					<div data-fancybox data-type="mp4" href="https://www.youtube.com/watch?v=i2Yf7JZonB4" class="button header__button header__button--green">Discover in video</div>
 				</div>
 			</div>
 		</div>
@@ -225,14 +225,16 @@
 						<h2 class="title price__title">Our felxible pricing plans for every person</h2>
 						<div class="price__text">Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.</div>
 						<div class="price__buttons">
-							<a class="button price__button price__button--blue" href="#">Monthly</a>
-							<a class="button price__button price__button--transparent" href="#">Yearly</a>
+							<a class="button price__button price__button--active" href="#" data-type="month">Monthly</a>
+							<a class="button price__button" href="#" data-type="year">Yearly</a>
 						</div>
 					</div>
 					<div class="price__prising flex">
 						<div class="prising-block prising-block--blue">
 							<div class="prising__inner">
-								<div class="prising__price prising__price--blue">$59.99</div>
+								<div class="prising__price__block">
+									<div class="prising__price prising__price--blue">59.99</div><sub>/Mth</sub>
+								</div>
 								<div class="prising__title prising__title--blue">Professional</div>
 								<div class="prising__items">
 									<div class="prising__item">Power And Predictive Dialing</div>
@@ -244,7 +246,9 @@
 						</div>
 						<div class="prising-block">
 							<div class="prising__inner">
-								<div class="prising__price">$29.99</div>
+								<div class="prising__price__block">
+									<div class="prising__price">29.99</div><sub>/Mth</sub>
+								</div>
 								<div class="prising__title">Advanced</div>
 								<div class="prising__items">
 									<div class="prising__item">Power And Predictive Dialing</div>
