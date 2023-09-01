@@ -44,7 +44,7 @@ const t=t=>"object"==typeof t&&null!==t&&t.constructor===Object&&"[object Object
 		};
 	});
 
-	//Кнопка мобильного меню
+	//Кнопка мобильного меню (button mobile menu)
 	if(mobileMenuLink.length){
 		mobileMenuLink.forEach(function(el, i, mobileMenuLink){
 			el.addEventListener('click', function(event) {
@@ -61,7 +61,7 @@ const t=t=>"object"==typeof t&&null!==t&&t.constructor===Object&&"[object Object
 		bodyScrollTop.classList.toggle('no-scroll');
 	});
 
-	//Появление фиксированного меню
+	//Появление фиксированного меню (onset fixed menu)
 	if(window.innerWidth <= 768){
 		headerMenuFixed.classList.add('header-menu--fixed--none');
 	} else{
@@ -132,7 +132,7 @@ const t=t=>"object"==typeof t&&null!==t&&t.constructor===Object&&"[object Object
 	}
 
 
-	//Блоки с вопросами
+	//Блоки с вопросами (Block with questions)
 	if(buttonPlus.length){
 		buttonPlus.forEach(function(el, i, buttonPlus){
 			el.addEventListener('click', function(e){
@@ -144,7 +144,7 @@ const t=t=>"object"==typeof t&&null!==t&&t.constructor===Object&&"[object Object
 		});
 	}
 
-	//Переключение цен
+	//Переключение цен (Toggle prices)
 	if(buttonsMonth.length){
 		buttonsMonth.forEach(function(el, i, buttonsMonth){
 			el.addEventListener('click', function(e){
